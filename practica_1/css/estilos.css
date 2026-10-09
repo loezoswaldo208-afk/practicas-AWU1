@@ -1,0 +1,181 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #eceff1;
+    font-family: 'Poppins', sans-serif;
+}
+
+main {
+    display: flex;
+    width: 1200px;
+    margin: 20px auto;
+}
+
+#barra_horizontal {
+    width: 240px;
+    background-color: #263238;
+    padding: 20px;
+    border: 10px solid #102027;
+}
+
+#barra_horizontal p {
+    color: white;
+    font-size: 22px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+#barra_horizontal li {
+    margin-bottom: 15px;
+    color: white;
+}
+
+#barra_horizontal a {
+    color: white;
+    text-decoration: none;
+}
+
+.colum {
+    width: 960px;
+    padding: 10px;
+}
+
+.renglon {
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.renglon article {
+    width: 220px;
+    height: 190px;
+    margin: 5px;
+    padding: 5px;
+    background-color: white;
+    border: 5px solid #b0bec5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* IMÁGENES DESDE HTML */
+.renglon article img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* IMÁGENES DESDE CSS (Fondos) */
+.img-css {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* Rutas de tus imágenes */
+.img1 { background-image: url('../img/foto4.jpg.jpg'); }
+.img2 { background-image: url('../img/foto5.jpg.jpg'); }
+.img3 { background-image: url('../img/foto6.jpg.jpeg'); }
+.img4 { background-image: url('../img/foto7.jpg.jpg'); }
+
+.caja-gradiente {
+    background: linear-gradient(180deg, #4d5f68 0%, #263238 100%);
+    color: white;
+    font-size: 14px;
+    text-align: center;
+}
+.tarjeta-info {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    font-size: 12px;
+    color: #37474f;
+    background-color: white;
+}
+
+.iconos-lado {
+    display: flex;
+    flex-direction: column;
+    margin-right: 8px;
+}
+
+.material-symbols-outlined {
+    font-size: 20px;
+    margin: 2px 0;
+    color: #263238;
+}
+
+/* BARRA DE ABAJO */
+
+footer {
+    width: 1200px;
+    height: 50px;
+    margin: 0 auto 20px auto;
+    background-color: #4d5f68;
+    display: flex;
+    border: 3px solid #37474f;
+}
+
+.iconos_contacto {
+    width: 240px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-right: 1px solid #37474f;
+}
+
+.iconos_contacto span {
+    font-size: 22px;
+    margin: 5px;
+    color: white;
+}
+
+.opciones_footer {
+    width: 960px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.opciones_footer a {
+    color: #6193ac;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+.opciones_footer p {
+    margin-left: 30px;
+    font-size: 14px;
+    color: white;
+}
+.tarjeta-mixta {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px;
+    background-color: white;
+}
+.texto-mixto {
+    width: 55%;
+    font-size: 11px;
+    color: #37474f;
+    line-height: 1.2;
+    padding-right: 5px;
+}
+.imagen-mixta {
+    width: 45%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.imagen-mixta img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Cantante</title>
+    <link href="css3/estilos.css" rel="stylesheet" >
+</head>
+<body>
+
+    <header>
+        <h1><span class="material-symbols-outlined">library_music</span> Mi Música</h1>
+    </header>
+
+    <main>
+        <nav>
+    <h2>Menú</h2>
+    <ul>
+        <li><a href="index.html" class="activo"><span class="material-symbols-outlined">home</span> Inicio</a></li>
+        <li><a href="disco.html"><span class="material-symbols-outlined">album</span> Disco</a></li>
+        <li><a href="cantante.html"><span class="material-symbols-outlined">person</span> Cantante</a></li>
+        <li><a href="cancion.html"><span class="material-symbols-outlined">music_note</span> Canción</a></li>
+        <li><a href="playlist.html"><span class="material-symbols-outlined">queue_music</span> Playlist</a></li>
+    </ul>
+</nav>
+
+        <section>
+            <article>
+                <h2>Cantante</h2>
+                <form id="formCantante">
+                    <label>
+                        Nombre:
+                        <input type="text" required>
+                    </label>
+
+                    <label>
+                        Edad:
+                        <input type="number" required>
+                    </label>
+
+                    <fieldset>
+                        <legend>Género</legend>
+                        <section class="radio-group">
+                            <label><input type="radio" name="genero" value="Femenino"> Femenino</label>
+                            <label><input type="radio" name="genero" value="Masculino"> Masculino</label>
+                        </section>
+                    </fieldset>
+
+                    <label>
+                        Trayectoria:
+                        <select required>
+                            <option value="">Selecciona los años</option>
+                            <option value="1-5">1 a 5 años</option>
+                            <option value="5-10">5 a 10 años</option>
+                        </select>
+                    </label>
+
+                    <button type="submit">Guardar</button>
+                </form>
+            </article>
+
+            <aside>
+                <img src="img/disco6.jpeg" alt="Cantante">
+            </aside>
+        </section>
+    </main>
+
+    <footer>
+        <p>LDSM401</p>
+        <p>Jonathan López</p>
+    </footer>
+
+     <script src="js"></script>
+</body>
+</html>
