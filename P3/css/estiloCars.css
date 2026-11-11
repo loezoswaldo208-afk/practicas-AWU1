@@ -1,0 +1,42 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+		
+header, footer{
+	background-color:#142850;
+	text-align:center;
+	font-size:16px;
+	color:#00A8CC;
+	padding:10px 0px;
+    font-family: 'Mynerve', cursive;
+   
+}	
+
+
+	
+section{
+    width: 100%;
+    display: block;
+    border: 1px solid #8a2be2;
+    text-align: center;
+	background-color:#00A8CC;
+	background-size: cover;
+    font-family: 'Mynerve', cursive;
+     
+}
+img{
+    width: 300px;
+}
+li{
+	color:#DFD3C3;
+	font-family: 'Mynerve', cursive;
+	font-weight: bold;
+}
+ul{
+	background-color: #7D6E83;
+}
+article{
+	display:inline-block;
+}

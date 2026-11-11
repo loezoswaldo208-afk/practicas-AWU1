@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Medidas</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body class="bg-light d-flex justify-content-center align-items-center vh-100">
+    <div class="card shadow p-4" style="max-width: 400px; width: 100%;">
+        <h4 class="text-center mb-4">Calculadora MM,CM,M</h4>
+        <form id="calculadoraForm">
+            <div class="mb-3">
+                <input type="number" name="metros" class="form-control" id="m" placeholder="Metros">
+            </div>
+            <div class="mb-3">
+                <input type="number" name="centimetros" class="form-control" id="cm" placeholder="Ingrese centímetros">
+            </div>
+            <div class="mb-3">
+                <input type="number" name="milimetros" class="form-control" id="mm" placeholder="Ingrese milímetros">
+            </div>
+            <button type="button" class="btn btn-secondary w-100 mt-2" id="btnBorrar">Borrar</button>
+        </form>
+    </div>
+    <script src="js/funciones.js"></script>
+</body>
+</html>
